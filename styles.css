@@ -6,5 +6,7 @@ body{
 }
 .portfolio-container .profile-container {
   margin:2% 5%;
+    min-height: calc(100vh - 4%);
+    max-height :  calc(100vh - 4%);
   border: 1px solid red;
 }
