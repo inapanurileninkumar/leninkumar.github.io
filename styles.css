@@ -3,8 +3,9 @@
 }
 .portfolio-container {
   width: 100%;
-  padding: 5% 10%;
+  padding: 5% 10% 5% 10%;
 }
 .portfolio-container .profile-container {
+  width:100%;
   border: 1px solid red;
 }
