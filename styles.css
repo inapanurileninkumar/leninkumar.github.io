@@ -8,5 +8,7 @@ body{
   margin:2% 5%;
     min-height: calc(100vh - 6%);
     max-height :  calc(100vh - 6%);
+  overflow-y:auto;
+  overflow-x:hidden;
   border: 1px solid red;
 }
