@@ -139,6 +139,11 @@ body {
   min-width: calc((100% / 12) * 12);
   max-width: calc((100$ / 12) * 12);
 }
+
+.flex-row .col-offset-1{
+  padding-left: calc((100% / 12) *1);
+}
+
 .experience-title{
   font-size:13pt;
   font-weight:bold;
