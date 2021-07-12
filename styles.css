@@ -45,7 +45,9 @@ body {
 }
 //FLEX-BOX
 .flex-row{
+  width:100%;
   display: flex;
+  flex-wrap: wrap;
 }
 .flex-row .align-start {
   align-items: "flex-start";
@@ -72,10 +74,6 @@ body {
 }
 .flex-row .col-1 {
   width: calc((100% / 12)*1);
-}
-
-.flex-row .col-1 {
-  width: calc((100% / 12)* 1);
 }
 
 .flex-row .col-2 {
