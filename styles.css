@@ -7,6 +7,8 @@ body {
   background: whitesmoke;
   overflow: hidden;
   font-family: "rounded_font";
+  font-size:14pt;
+  letter-spacing:1px;
 }
 
 .portfolio-container {
