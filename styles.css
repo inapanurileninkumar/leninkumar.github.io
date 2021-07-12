@@ -21,6 +21,12 @@ body {
 .portfolio-container .profile-container .header-container{
   text-align:right;
 }
+.portfolio-container .profile-container .header-container .name{
+  font-size: 20pt;
+}
+.portfolio-container .profile-container .header-container .contact{
+  font-size: 16pt;
+}
 .portfolio-container .profile-container::-webkit-scrollbar {
   width: 7px;
 }
