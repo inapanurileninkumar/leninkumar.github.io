@@ -5,6 +5,8 @@ body {
 
 .portfolio-container {
   width: 100%;
+  max-height: 100vh;
+  overflow-y:auto;
 }
 
 .portfolio-container .profile-container {
