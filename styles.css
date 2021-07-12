@@ -1,6 +1,12 @@
+@font-face {
+  font-family: "rounded_font";
+  src: url("Hoop_Light Demo.otf") format("opentype");
+}
+
 body {
   background: whitesmoke;
   overflow: hidden;
+  font-family: "rounded_font";
 }
 
 .portfolio-container {
