@@ -10,8 +10,8 @@ body {
 .portfolio-container .profile-container {
   margin: 0% 10%;
   padding:10px 10%;
-  min-height: calc(100vh - 10%);
-  max-height: calc(100vh - 10%);
+  min-height: 100vh;/*calc(100vh - 10%);*/
+  max-height: 100vh;/*calc(100vh - 10%);*/
   overflow-y: auto;
   overflow-x: hidden;
   background:white;
