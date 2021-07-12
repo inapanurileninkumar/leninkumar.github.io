@@ -43,11 +43,9 @@ body {
   -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
   background-color: skyblue;
 }
-//FLEX-BOX
 .flex-row{
   width:100%;
   display: flex;
-  flex-wrap: wrap;
 }
 .flex-row .align-start {
   align-items: "flex-start";
@@ -73,49 +71,73 @@ body {
   justify-content: "flex-end";
 }
 .flex-row .col-1 {
-  width: calc((100% / 12)*1);
+  width: calc((100% / 12) * 1);
+  min-width: calc((100% / 12) * 1);
+  max-width: calc((100$ / 12) * 1);
 }
 
 .flex-row .col-2 {
-  width: calc((100% / 12)* 2);
+  width: calc((100% / 12) * 2);
+  min-width: calc((100% / 12) * 2);
+  max-width: calc((100$ / 12) * 2);
 }
 
 .flex-row .col-3 {
-  width: calc((100% / 12)* 3);
+  width: calc((100% / 12) * 3);
+  min-width: calc((100% / 12) * 3);
+  max-width: calc((100$ / 12) * 3);
 }
 
 .flex-row .col-4 {
-  width: calc((100% / 12)* 4);
+  width: calc((100% / 12) * 4);
+  min-width: calc((100% / 12) * 4);
+  max-width: calc((100$ / 12) * 4);
 }
 
 .flex-row .col-5 {
-  width: calc((100% / 12)* 5);
+  width: calc((100% / 12) * 5);
+  min-width: calc((100% / 12) * 5);
+  max-width: calc((100$ / 12) * 5);
 }
 
 .flex-row .col-6 {
-  width: calc((100% / 12)* 6);
+  width: calc((100% / 12) * 6);
+  min-width: calc((100% / 12) * 6);
+  max-width: calc((100$ / 12) * 6);
 }
 
 .flex-row .col-7 {
-  width: calc((100% / 12)* 7);
+  width: calc((100% / 12) * 7);
+  min-width: calc((100% / 12) * 7);
+  max-width: calc((100$ / 12) * 7);
 }
 
 .flex-row .col-8 {
-  width: calc((100% / 12)* 8);
+  width: calc((100% / 12) * 8);
+  min-width: calc((100% / 12) * 8);
+  max-width: calc((100$ / 12) * 8);
 }
 
 .flex-row .col-9 {
-  width: calc((100% / 12)* 9);
+  width: calc((100% / 12) * 9);
+  min-width: calc((100% / 12) * 9);
+  max-width: calc((100$ / 12) * 9);
 }
 
 .flex-row .col-10 {
-  width: calc((100% / 12)* 10);
+  width: calc((100% / 12) * 10);
+  min-width: calc((100% / 12) * 10);
+  max-width: calc((100$ / 12) * 10);
 }
 
 .flex-row .col-11 {
-  width: calc((100% / 12)* 11);
+  width: calc((100% / 12) * 11);
+  min-width: calc((100% / 12) * 11);
+  max-width: calc((100$ / 12) * 11);
 }
 
 .flex-row .col-12 {
-  width: calc((100% / 12)* 12);
+  width: calc((100% / 12) * 12);
+  min-width: calc((100% / 12) * 12);
+  max-width: calc((100$ / 12) * 12);
 }
